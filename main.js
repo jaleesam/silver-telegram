@@ -60,7 +60,10 @@ const companies = [
   const eightiesCompanies = companies.filter(company => (company.start >= 1980 && company.start < 1990));
 
   console.log(eightiesCompanies);
-  //map
+  
+  //GET COMPANIES THAT LASTED 10 YEARS OR MORE
+  const lastedTenYears = companies.filter();
 
+  //map
   //sort
   //reduce
